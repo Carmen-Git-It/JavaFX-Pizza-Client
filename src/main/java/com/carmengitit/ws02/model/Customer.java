@@ -18,6 +18,7 @@ public class Customer {
     public Customer(String name, String phone) {
         this.name = name;
         this.phone = phone;
+        orders = new ArrayList<>();
     }
 
     public String getName() {
@@ -46,5 +47,19 @@ public class Customer {
 
     public void addOrder(Order order) {
         orders.add(order);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+
+        if (!(obj instanceof Customer)) {
+            return false;
+        }
+
+        Customer c = (Customer) obj;
+        return this.name.equals(c.name) && this.phone.equals(c.phone);
     }
 }

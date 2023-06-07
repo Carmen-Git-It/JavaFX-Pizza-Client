@@ -55,4 +55,9 @@ public class Product {
 
         return this.size.equals(p.size) && this.type.equals(p.type) && this.price == p.price;
     }
+
+    @Override
+    public String toString() {
+        return size + " " + type + " $" + String.format("%.2f", price);
+    }
 }

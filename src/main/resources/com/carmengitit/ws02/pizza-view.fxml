@@ -124,8 +124,8 @@
                            <children>
                               <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="30.0">
                                  <children>
-                                    <Button fx:id="placeOrderButton" mnemonicParsing="false" text="Place Order" />
-                                    <Button fx:id="cancelButton" mnemonicParsing="false" text="Cancel" />
+                                    <Button fx:id="placeOrderButton" mnemonicParsing="false" text="Place Order" onAction="#onPlaceOrderButtonClick"/>
+                                    <Button fx:id="cancelButton" mnemonicParsing="false" text="Cancel" onAction="#onCancelButtonClick"/>
                                  </children>
                               </HBox>
                            </children>

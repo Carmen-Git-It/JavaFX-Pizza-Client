@@ -3,6 +3,7 @@ import com.carmengitit.ws02.model.Product;
 import com.carmengitit.ws02.model.Customer;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class Order {
     private HashMap<Product, Integer> products;
@@ -36,5 +37,13 @@ public class Order {
 
     public void setCustomer(Customer customer) {
         this.customer = customer;
+    }
+
+    public double getTotal() {
+        double total = 0;
+        for(Map.Entry<Product, Integer> item : products.entrySet()) {
+            total += item.getKey().getPrice() * item.getValue();
+        }
+        return total;
     }
 }
