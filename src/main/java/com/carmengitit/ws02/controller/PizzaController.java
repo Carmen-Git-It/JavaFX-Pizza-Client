@@ -107,7 +107,8 @@ public class PizzaController {
                     + "Products Ordered:\n"
                     + "Size | Type | Price | Quantity\n"
                     + product + " | " + order.getProducts().get(product) + "\n\n"
-                    + "Subtotal: " + order.getTotal();
+                    + "Subtotal: " + String.format("%.2f", order.getSubTotal()) + "\n"
+                    + "Total: " + String.format("%.2f", order.getTotal());
             summaryTextArea.setText(summary);
         } catch(Exception e) {
             System.out.println(e.toString());

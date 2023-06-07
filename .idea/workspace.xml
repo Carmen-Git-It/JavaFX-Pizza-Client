@@ -7,10 +7,7 @@
     <list default="true" id="1e455312-1f35-429b-82ee-d64f32ecaafd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/carmengitit/ws02/controller/PizzaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carmengitit/ws02/controller/PizzaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carmengitit/ws02/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carmengitit/ws02/model/Customer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/carmengitit/ws02/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carmengitit/ws02/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/carmengitit/ws02/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/carmengitit/ws02/model/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/carmengitit/ws02/pizza-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/carmengitit/ws02/pizza-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

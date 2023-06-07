@@ -39,11 +39,15 @@ public class Order {
         this.customer = customer;
     }
 
-    public double getTotal() {
+    public double getSubTotal() {
         double total = 0;
         for(Map.Entry<Product, Integer> item : products.entrySet()) {
             total += item.getKey().getPrice() * item.getValue();
         }
         return total;
+    }
+
+    public double getTotal() {
+        return getSubTotal() * 1.13;
     }
 }
